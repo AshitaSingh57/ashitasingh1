@@ -1,0 +1,103 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Box Design</title>
+
+    <style>
+        .main-box {
+            width: 400px;
+            padding: 20px;
+            border: 10px solid black;
+            margin: 30px auto;
+            background-color: brown;
+            border-radius: 20px;
+        }
+
+        .product-box {
+            border: 6px solid black;
+            padding: 15px;
+            text-align: center;
+            background-color: whitesmoke;
+            border-radius: 20px;
+        }
+
+        .product-box img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border: 5px solid black;
+            border-radius: 20px;
+        }
+
+        .name-box {
+            border: 2px solid black;
+            padding: 10px;
+            margin-top: 20px;
+            font-size: 20px;
+            background-color: beige;
+            border: 5px solid black;
+            border-radius: 20px;
+        }
+
+        .small-box {
+            margin-top: 20px;
+            padding: 5px;
+            display: flex;
+            margin: 10px auto;
+            width: 60%;
+            gap: 2px;
+            justify-content: center;
+            align-items: center;
+            border: 5px solid black;
+            background-color: yellow;
+            border-radius: 20px;
+
+        }
+        .add-cart {
+            background-color: #ff4d88;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+            transition: 0.3s;
+}
+
+.add-cart:hover {
+    background-color: #e63e75;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+}
+    </style>
+</head>
+
+<body>
+
+    
+    <div class="main-box">
+
+    
+        <div class="product-box">
+
+            
+            <img src="book.jpg" alt="book">
+
+            
+            <div class="name-box">
+                <b>Book</b><br>
+                By Ananya Sharma<br>
+                ₹399<br>
+            <button class="add-cart">Add to Cart</button>
+        
+
+        </div>
+
+    </div>
+
+</body>
+</html>
+```
